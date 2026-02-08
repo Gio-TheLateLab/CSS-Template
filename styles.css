@@ -1,10 +1,10 @@
 :root{
   --bg: #EAF7FF;
   --card: #FFFFFF;
-  --text: #102231;
-  --muted: #4E6B7A;
-  --accent: #1D9BF0;
-  --border: rgba(16,34,49,.12);
+  --text: #71b1e5;
+  --muted: #69abcb;
+  --accent: #8db8d5;
+  --border: rgba(112, 168, 214, 0.12);
 }
 
 *{ box-sizing: border-box; }
