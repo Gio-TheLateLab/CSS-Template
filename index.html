@@ -14,30 +14,43 @@
 
     <nav class="links">
       <a href="https://thelatelab.itch.io/" target="_blank" rel="noopener">Itch.io</a>
-      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/Gio-TheLateLab" target="_blank" rel="noopener">GitHub</a>
       <a href="mailto:correo@ejemplo.com">Contacto</a>
     </nav>
   </header>
 
   <main class="container grid">
+
+    <!-- ✅ Esta ocupa toda la parte superior -->
     <section class="card featured">
       <h2>Juego destacado</h2>
       <p class="muted">Project Space — demo</p>
 
       <div class="embed">
-        <iframe frameborder="0"
-                src="https://itch.io/embed/4228673"
-                width="552"
-                height="167">
-          <a href="https://thelatelab.itch.io/project-space">Project space by Gio</a>
+        <iframe
+          class="itch"
+          frameborder="0"
+          src="https://itch.io/embed/4228673"
+          width="552"
+          height="167"
+          loading="lazy">
         </iframe>
       </div>
+
+      <p class="small muted">
+        <a href="https://thelatelab.itch.io/project-space" target="_blank" rel="noopener">
+          Abrir en itch.io
+        </a>
+      </p>
     </section>
 
+    <!-- Debajo: el resto -->
     <section class="card">
       <h2>Sobre mí</h2>
       <p>
-        holi soy Gio, un desarrollador de juegos con experiencia en Unity y Unreal. Me apasiona crear experiencias interactivas y aprender nuevas tecnologías. He trabajado en proyectos de gameplay, UI y herramientas para mejorar los pipelines de desarrollo.
+        Holi, soy Gio, desarrollador de juegos con experiencia en Unity y Unreal.
+        Me apasiona crear experiencias interactivas y aprender nuevas tecnologías.
+        He trabajado en gameplay, UI y herramientas para mejorar pipelines de desarrollo.
       </p>
 
       <h3>Skills</h3>
@@ -56,6 +69,7 @@
         <li>Game jam / concurso</li>
       </ul>
     </section>
+
   </main>
 
   <footer class="container footer">

@@ -50,14 +50,16 @@ h1{
   text-decoration: underline;
 }
 
+/* ✅ GRID */
 .grid{
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+/* ✅ Hace que "Juego destacado" ocupe toda la fila */
 .featured{
-  grid-column: 1 / -1; /* ocupa todo el ancho del grid */
+  grid-column: 1 / -1;
 }
 
 .card{
@@ -70,12 +72,21 @@ h1{
 .muted{ color: var(--muted); }
 .small{ font-size: 14px; }
 
+/* ✅ Embed sin scroll y adaptado */
 .embed{
   margin-top: 12px;
   padding: 12px;
   border-radius: 14px;
   border: 1px dashed var(--border);
-  overflow-x: auto; /* por si el iframe es más ancho que el móvil */
+  overflow: hidden;
+}
+
+.itch{
+  width: 100%;
+  max-width: 552px;
+  height: 167px;
+  display: block;
+  margin: 0 auto; /* centra el embed dentro de la card */
 }
 
 .footer{
