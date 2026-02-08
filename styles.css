@@ -61,6 +61,7 @@ h1{
 /* ✅ Hace que "Juego destacado" ocupe toda la fila */
 .featured{
   grid-column: 1 / -1;
+  margin-bottom: 16px;
 }
 
 .card{
