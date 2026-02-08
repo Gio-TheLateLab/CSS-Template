@@ -56,6 +56,10 @@ h1{
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+.featured{
+  grid-column: 1 / -1; /* ocupa todo el ancho del grid */
+}
+
 .card{
   background: var(--card);
   border: 1px solid var(--border);
