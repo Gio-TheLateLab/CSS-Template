@@ -1,10 +1,11 @@
 :root{
-   --bg: linear-gradient(0deg,rgba(61, 41, 107, 1) 0%, rgba(55, 55, 120, 1) 35%, rgba(115, 223, 245, 1) 100%);
-  --card: #F9FBFF;
-  --text: #18253A;
-  --muted: #5A6B85;
-  --accent: #3B82F6;
-  --border: rgba(24,37,58,.12);
+  --bg: linear-gradient(135deg, #EAF3FF 0%, #D6E8FF 45%, #BFD9FF 100%);
+  --card: rgba(255,255,255,.92);
+  --text: #0F1B2D;
+  --muted: #51607A;
+  --accent: #2F6BFF;     /* azul brillante */
+  --accent2: #27E08A;    /* verde brillante (solo highlights) */
+  --border: rgba(15,27,45,.12);
 }
 
 *{ box-sizing: border-box; }
