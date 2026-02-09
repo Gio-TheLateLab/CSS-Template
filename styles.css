@@ -134,3 +134,6 @@ h1{
   height: 100%;
   display: block;
 }
+
+.card h2{ margin-top: 0; }
+.card p:first-of-type{ margin-top: 6px; }
