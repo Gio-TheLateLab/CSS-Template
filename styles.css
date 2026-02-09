@@ -1,11 +1,13 @@
 :root{
-  --bg: linear-gradient(135deg, #EAF3FF 0%, #D6E8FF 45%, #BFD9FF 100%);
-  --card: rgba(255,255,255,.92);
-  --text: #0F1B2D;
-  --muted: #51607A;
-  --accent: #2F6BFF;     /* azul brillante */
-  --accent2: #27E08A;    /* verde brillante (solo highlights) */
-  --border: rgba(15,27,45,.12);
+  --bg: linear-gradient(135deg, #EAF4FF 0%, #D7E8FF 35%, #C9D4FF 70%, #B9C2FF 100%);
+  --card: rgba(255,255,255,.90);
+  --text: #0C1630;
+  --muted: #51627D;
+
+  --accent: #2F6BFF;   /* azul brillante */
+  --accent2: #27E08A;  /* verde brillante */
+
+  --border: rgba(12,22,48,.12);
 }
 
 *{ box-sizing: border-box; }
